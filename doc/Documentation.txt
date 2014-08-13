@@ -1,0 +1,9 @@
+MAVEN (http://appfuse.org/display/APF/AppFuse+QuickStart)
+============================================
+Set DB password in pom.xml = admin
+Set JAVA_OPTS environment variable to -Xmx1024M -XX:PermSize=512m.
+
+1. mvn clean install -Dmaven.test.skip=true
+2. IntelliJ or mvn jetty:run -Dmaven.test.skip=true
+3. Go to http://localhost:8080
+4. Login as admin/admin or user/user
